@@ -1,0 +1,17 @@
+{
+	"name": "tr_ingest_populationdata",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/population/blobs/population_by_age.tsv.gz",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/f706aa61-075f-4e22-8a57-9f9db7034aaf/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingfurkan",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
