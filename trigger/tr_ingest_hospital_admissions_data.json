@@ -20,8 +20,8 @@
 			"recurrence": {
 				"frequency": "Day",
 				"interval": 1,
-				"startTime": "2021-05-02T07:49:00Z",
-				"timeZone": "UTC"
+				"startTime": "2021-05-02T09:51:00",
+				"timeZone": "W. Europe Standard Time"
 			}
 		}
 	}
